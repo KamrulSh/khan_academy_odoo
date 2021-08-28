@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id='view_exam_tree' model='ir.ui.view'>
+        <field name='name'>khanacademy.exam.tree</field>
+        <field name='model'>khanacademy.exam</field>
+        <field name='arch' type='xml'>
+            <tree>
+                <field name='exam_name'/>
+                <field name='exam_id'/>
+                <field name='student_count'/>
+                <field name='invigilator'/>
+                <field name='exam_date'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id='view_exam_form' model='ir.ui.view'>
+        <field name='name'>khanacademy.exam.form</field>
+        <field name='model'>khanacademy.exam</field>
+        <field name='arch' type='xml'>
+            <form>
+                <sheet>
+                    <group>
+                        <field name='exam_name'/>
+                        <field name='exam_id'/>
+                        <field name='student_count'/>
+                        <field name='invigilator'/>
+                        <field name='exam_date'/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id='view_exam_search' model='ir.ui.view'>
+        <field name='name'>khanacademy.exam.search</field>
+        <field name='model'>khanacademy.exam</field>
+        <field name='arch' type='xml'>
+            <search>
+                <field name='exam_name'/>
+                <field name='exam_id'/>
+                <field name='student_count'/>
+                <field name='invigilator'/>
+                <field name='exam_date'/>
+            </search>
+        </field>
+    </record>
+
+</odoo>

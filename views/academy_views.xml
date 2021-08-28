@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    
+    <menuitem 
+        id='menu_academy_main'
+        name='Khan Academy'
+        sequence='1'/>
+
+    <record id='action_student' model='ir.actions.act_window'>
+        <field name='name'>Students</field>
+        <field name='res_model'>khanacademy.student</field>
+        <field name='view_mode'>tree,form</field>
+    </record>
+
+    <menuitem 
+        id='khanacademy_student_menu' 
+        action='action_student' 
+        name='Students'
+        parent='menu_academy_main'
+        sequence='2'/>
+
+
+    <record id='action_course' model='ir.actions.act_window'>
+        <field name='name'>Courses</field>
+        <field name='res_model'>khanacademy.course</field>
+        <field name='view_mode'>tree,form</field>
+    </record>
+
+    <menuitem 
+        id='khanacademy_course_menu'
+        action='action_course'
+        name='Courses'
+        parent='menu_academy_main'
+        sequence='3'/>
+
+
+    
+    <record id='action_teacher' model='ir.actions.act_window'>
+        <field name='name'>Teachers</field>
+        <field name='res_model'>khanacademy.teacher</field>
+        <field name='view_mode'>tree,form</field>
+    </record>
+
+    <menuitem 
+        id='menu_teacher' 
+        action='action_teacher' 
+        name='Teachers'
+        parent='menu_academy_main'
+        sequence='4'/> 
+
+    <record id='action_exam' model='ir.actions.act_window'>
+        <field name='name'>Exams</field>
+        <field name='res_model'>khanacademy.exam</field>
+        <field name='view_mode'>tree,form</field>
+    </record>
+
+    <menuitem 
+        id='menu_exam' 
+        action='action_exam' 
+        name='Exams'
+        parent='menu_academy_main'
+        sequence='4'/> 
+
+
+</odoo>
