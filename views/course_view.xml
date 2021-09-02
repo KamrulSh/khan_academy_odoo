@@ -6,7 +6,7 @@
         <field name='model'>khanacademy.course</field>
         <field name='arch' type='xml'>
             <tree>
-                <field name='course_name'/>
+                <field name='name'/>
                 <field name='course_code'/>
                 <field name='credit_hour'/>
                 <field name='course_description'/>
@@ -21,7 +21,7 @@
             <form>
                 <sheet>
                     <group>
-                        <field name='course_name'/>
+                        <field name='name'/>
                         <field name='course_code'/>
                         <field name='credit_hour'/>
                         <field name='course_description'/>
@@ -36,7 +36,7 @@
         <field name='model'>khanacademy.course</field>
         <field name='arch' type='xml'>
             <search>
-                <field name='course_name'/>
+                <field name='name'/>
                 <field name='course_code'/>
                 <field name='credit_hour'/>
             </search>

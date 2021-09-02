@@ -4,7 +4,7 @@ class AcademyTeacher(models.Model):
     _name = 'khanacademy.teacher'
     _description = 'Teacher information.'
 
-    teacher_name = fields.Char(string='Teacher Name')
+    name = fields.Char(string='Teacher Name')
     teacher_id = fields.Char(string='Teacher ID')
     teacher_phone = fields.Char(string='Phone Number')
     teacher_email = fields.Char(string='Email Address')

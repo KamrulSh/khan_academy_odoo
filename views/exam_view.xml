@@ -6,7 +6,7 @@
         <field name='model'>khanacademy.exam</field>
         <field name='arch' type='xml'>
             <tree>
-                <field name='exam_name'/>
+                <field name='name'/>
                 <field name='exam_id'/>
                 <field name='student_count'/>
                 <field name='invigilator'/>
@@ -22,7 +22,7 @@
             <form>
                 <sheet>
                     <group>
-                        <field name='exam_name'/>
+                        <field name='name'/>
                         <field name='exam_id'/>
                         <field name='student_count'/>
                         <field name='invigilator'/>
@@ -38,7 +38,7 @@
         <field name='model'>khanacademy.exam</field>
         <field name='arch' type='xml'>
             <search>
-                <field name='exam_name'/>
+                <field name='name'/>
                 <field name='exam_id'/>
                 <field name='student_count'/>
                 <field name='invigilator'/>
