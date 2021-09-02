@@ -6,7 +6,7 @@
         <field name='model'>khanacademy.teacher</field>
         <field name='arch' type='xml'>
             <tree>
-                <field name='teacher_name'/>
+                <field name='name'/>
                 <field name='teacher_id'/>
                 <field name='teacher_phone'/>
                 <field name='teacher_email'/>
@@ -24,7 +24,7 @@
                 <sheet>
                     <group>
                         <group>
-                            <field name='teacher_name'/>
+                            <field name='name'/>
                             <field name='teacher_id'/>
                             <field name='teacher_phone'/>
                             <field name='teacher_email'/>
@@ -44,7 +44,7 @@
         <field name='model'>khanacademy.teacher</field>
         <field name='arch' type='xml'>
             <search>
-                <field name='teacher_name'/>
+                <field name='name'/>
                 <field name='teacher_id'/>
                 <field name='teacher_phone'/>
                 <field name='teacher_email'/>
