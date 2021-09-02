@@ -11,7 +11,9 @@
                 <field name='student_phone'/>
                 <field name='student_email'/>
                 <field name='student_photo'/>
+                <field name='department_id'/>
                 <field name='student_dob'/>
+                <field name='course_id'/>
             </tree>
         </field>
     </record>
@@ -29,10 +31,12 @@
                             <field name='student_id'/>
                             <field name='student_phone'/>
                             <field name='student_email'/>
+                            <field name='department_id'/>
                         </group>
                         <group>
                             <field name='student_photo' widget='image' class='oe_avatar'/>
                             <field name='student_dob'/>
+                            <field name='course_id' widget='many2many_tags'/>
                         </group>
                     </group>
                     
@@ -65,18 +69,5 @@
             </p>
         </field>
     </record>
-
-<!-- 
-    <menuitem id="academy_root"
-            name="Khan Academy"
-            sequence="1"/>
-
-  
-    <menuitem id="khanacademy_student"
-        name="Students"
-        parent="academy_root"
-        action="student_action"
-        sequence="2"/>
--->
 
 </odoo>

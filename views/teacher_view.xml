@@ -11,6 +11,8 @@
                 <field name='teacher_phone'/>
                 <field name='teacher_email'/>
                 <field name='teacher_photo'/>
+                <field name='department_id'/>
+                <field name='course_ids'/>
             </tree>
         </field>
     </record>
@@ -31,6 +33,8 @@
                         </group>
                         <group>
                             <field name='teacher_photo' widget='image' class='oe_avatar'/>
+                            <field name='department_id'/>
+                            <field name='course_ids' widget='many2many_tags'/>
                         </group>
                     </group>
                     
