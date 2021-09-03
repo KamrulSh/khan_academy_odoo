@@ -13,7 +13,7 @@
                 <field name='student_photo'/>
                 <field name='department_id'/>
                 <field name='student_dob'/>
-                <field name='course_id'/>
+                <field name='course_ids'/>
             </tree>
         </field>
     </record>
@@ -36,7 +36,7 @@
                         <group>
                             <field name='student_photo' widget='image' class='oe_avatar'/>
                             <field name='student_dob'/>
-                            <field name='course_id' widget='many2many_tags'/>
+                            <field name='course_ids' widget='many2many_tags'/>
                         </group>
                     </group>
                     

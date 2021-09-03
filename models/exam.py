@@ -9,4 +9,4 @@ class AcademyExam(models.Model):
     exam_date = fields.Date(string='Exam Date')
 
     name = fields.Many2one('khanacademy.course', string='Course/Exam Name')
-    invigilator = fields.Many2one('khanacademy.teacher', string='Invigilator Name')
+    invigilator_id = fields.Many2one('khanacademy.teacher', string='Invigilator Name')

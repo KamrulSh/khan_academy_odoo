@@ -11,5 +11,5 @@ class AcademyStudent(models.Model):
     student_photo = fields.Binary(string="Photo", attachment=True)
     student_dob = fields.Date(string="Date of Birth")
 
-    course_id = fields.Many2many('khanacademy.course', string='Courses')
+    course_ids = fields.Many2many('khanacademy.course', string='Courses')
     department_id = fields.Many2one('khanacademy.department', string='Department')

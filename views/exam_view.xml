@@ -9,7 +9,7 @@
                 <field name='name'/>
                 <field name='exam_id'/>
                 <field name='student_count'/>
-                <field name='invigilator'/>
+                <field name='invigilator_id'/>
                 <field name='exam_date'/>
             </tree>
         </field>
@@ -25,7 +25,7 @@
                         <field name='name'/>
                         <field name='exam_id'/>
                         <field name='student_count'/>
-                        <field name='invigilator'/>
+                        <field name='invigilator_id'/>
                         <field name='exam_date'/>
                     </group>
                 </sheet>
@@ -41,7 +41,7 @@
                 <field name='name'/>
                 <field name='exam_id'/>
                 <field name='student_count'/>
-                <field name='invigilator'/>
+                <field name='invigilator_id'/>
                 <field name='exam_date'/>
             </search>
         </field>

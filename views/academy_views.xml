@@ -22,7 +22,7 @@
     <record id='action_student' model='ir.actions.act_window'>
         <field name='name'>Students</field>
         <field name='res_model'>khanacademy.student</field>
-        <field name='view_mode'>tree,form</field>
+        <field name='view_mode'>tree,form,kanban</field>
     </record>
 
     <menuitem 
@@ -36,7 +36,7 @@
     <record id='action_course' model='ir.actions.act_window'>
         <field name='name'>Courses</field>
         <field name='res_model'>khanacademy.course</field>
-        <field name='view_mode'>tree,form</field>
+        <field name='view_mode'>tree,form,kanban</field>
     </record>
 
     <menuitem 
@@ -51,7 +51,7 @@
     <record id='action_teacher' model='ir.actions.act_window'>
         <field name='name'>Teachers</field>
         <field name='res_model'>khanacademy.teacher</field>
-        <field name='view_mode'>tree,form</field>
+        <field name='view_mode'>tree,form,kanban</field>
     </record>
 
     <menuitem 
@@ -64,7 +64,7 @@
     <record id='action_exam' model='ir.actions.act_window'>
         <field name='name'>Exams</field>
         <field name='res_model'>khanacademy.exam</field>
-        <field name='view_mode'>tree,form</field>
+        <field name='view_mode'>tree,form,kanban</field>
     </record>
 
     <menuitem 
