@@ -10,3 +10,6 @@ class AcademyStudent(models.Model):
     student_email = fields.Char(string='Email Address')
     student_photo = fields.Binary(string="Photo", attachment=True)
     student_dob = fields.Date(string="Date of Birth")
+
+    course_ids = fields.Many2many('khanacademy.course', string='Courses')
+    department_id = fields.Many2one('khanacademy.department', string='Department')

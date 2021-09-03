@@ -8,3 +8,6 @@ class AcademyCourse(models.Model):
     course_code = fields.Char(string='Course Code')
     course_description = fields.Text(string='Course Description')
     credit_hour = fields.Integer(string='Credit')
+
+    teacher_id = fields.Many2one('khanacademy.teacher', string='Course Teacher')
+    department_id = fields.Many2one('khanacademy.department', string='Department')
