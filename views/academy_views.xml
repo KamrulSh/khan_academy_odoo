@@ -74,5 +74,17 @@
         parent='menu_academy_main'
         sequence='6'/> 
 
+    <record id='action_product' model='ir.actions.act_window'>
+        <field name='name'>Paid Course</field>
+        <field name='res_model'>product.template</field>
+        <field name='view_mode'>tree,form</field>
+    </record>
+
+    <menuitem
+        id='menu_product'
+        action='action_product'
+        name='Paid Course'
+        parent='menu_academy_main'
+        sequence='6'/>
 
 </odoo>

@@ -20,7 +20,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'website_sale'],
 
     # always loaded
     'data': [
@@ -31,6 +31,7 @@
         'views/course_view.xml',
         'views/teacher_view.xml',
         'views/exam_view.xml',
+        'views/course_sale.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
